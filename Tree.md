@@ -1,8 +1,8 @@
 
 
 need to cover
--codestorywithmik
--takeuforward
+- codestorywithmik
+- takeuforward
 
 
 [Leetcode 1339](https://leetcode.com/problems/maximum-product-of-splitted-binary-tree/description/)  #TreeDp #Recursion #DFS #MapSTL #Tree #BinaryTree
