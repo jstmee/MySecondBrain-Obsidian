@@ -13,6 +13,8 @@ LCA
 [Leetcode 236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) #recusion
 use of recursion only one more solution not optimal use of array
 follow up problems
+[Leetcode 865](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/) and [Leetcode 1123](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/) have solve it with use of lca not optimal approach
+
 
 
 
