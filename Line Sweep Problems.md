@@ -23,6 +23,7 @@ It is extension of prefix sum with difference array technique kind of.
 9. [Leetcode 731](https://leetcode.com/problems/my-calendar-ii/description/) good question need to revise
 10. [Leetcode 2237 Premium Problem](https://leetcode.com/problems/count-positions-on-street-with-required-brightness/) need to solve own my own
 11. [Leetcode 1893](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/description/) 
+12. [leetcode 370 Premium Problem](https://leetcode.com/problems/range-addition/) straight range update question 
   
 
   
