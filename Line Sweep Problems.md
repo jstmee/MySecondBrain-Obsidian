@@ -3,7 +3,7 @@
 prequisite is prefix sum
 It is extension of prefix sum with difference array technique kind of.
 
-
+https://docs.google.com/spreadsheets/d/1LO1BLTebhrcRfEpPjIOutKvOFSFaFM3Ph1EjA12x_zE/edit?pli=1&gid=740761817#gid=740761817
 ###### good sources
 1. https://leetcode.com/discuss/post/2166045/line-sweep-algorithms-by-c0d3m-8ebq/
 
@@ -26,6 +26,7 @@ It is extension of prefix sum with difference array technique kind of.
 12. [leetcode 370 Premium Problem](https://leetcode.com/problems/range-addition/) straight range update question 
 13. [Leetcode 2381](https://leetcode.com/problems/shifting-letters-ii/description/) very good question need to do it again and again
 14. [Leetcode 2406](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/description/) 
+
   
 
   
