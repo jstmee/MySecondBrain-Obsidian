@@ -24,6 +24,8 @@ It is extension of prefix sum with difference array technique kind of.
 10. [Leetcode 2237 Premium Problem](https://leetcode.com/problems/count-positions-on-street-with-required-brightness/) need to solve own my own
 11. [Leetcode 1893](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/description/) 
 12. [leetcode 370 Premium Problem](https://leetcode.com/problems/range-addition/) straight range update question 
+13. [Leetcode 2381](https://leetcode.com/problems/shifting-letters-ii/description/) very good question need to do it again and again
+14. [Leetcode 2406](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/description/) 
   
 
   
