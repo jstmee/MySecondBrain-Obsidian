@@ -20,6 +20,9 @@ It is extension of prefix sum with difference array technique kind of.
 6. [Leetcode 2848](https://leetcode.com/problems/points-that-intersect-with-cars/description/) 
 7. [Leetcode 253 Premuim Problem](https://leetcode.com/problems/meeting-rooms-ii/) alternative links- [Link1Gfg](https://www.geeksforgeeks.org/problems/attend-all-meetings-ii/1) [Link2NeetCode](https://neetcode.io/problems/meeting-schedule-ii/question) this question has more different way to solve it max min heap, two pointers and greedy for their solution see neetcode link.
 8. [Leetcode 252 Premium Problem](https://neetcode.io/problems/meeting-schedule/question) alternative link-[Link1NeetCode](https://neetcode.io/problems/meeting-schedule/question) this has o(1) solution
+9. [Leetcode 731](https://leetcode.com/problems/my-calendar-ii/description/) good question need to revise
+10. [Leetcode 2237 Premium Problem](https://leetcode.com/problems/count-positions-on-street-with-required-brightness/) need to solve own my own
+11. [Leetcode 1893](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/description/) 
   
 
   
