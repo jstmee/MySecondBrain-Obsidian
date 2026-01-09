@@ -14,13 +14,14 @@ Solve it using most optimal approach need to revise it again.
 
 ## LCA(Lowest Common Ancestors)
 
+Q1
 [Leetcode 236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) #Recusion #MapSTL #Tree #BinaryTree #DFS 
 use of recursion only one more solution not optimal use of array
 follow up problems
 [Leetcode 865](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/) and [Leetcode 1123](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/) 
-###### method 1 
+##### method 1 
 use of height of tree, lca, map, vector
-
+###### code function
 ```cpp
 class Solution {
 public:
@@ -68,14 +69,65 @@ public:
 };
 ```
 
-###### method 2 
+
+##### method 2 
 remove call for lca function previous it is called many times just call it two time only needed.
-###### method 3  
+##### method 3  
 modify lca function code so that is give correct answer try to use map but it used 2 pass o(2n) Most optimal is only o(n).
-###### method 4 
+##### method 4 
 1 pass solution exist codestorywithmik most optimal code for this question.
 in 1 recursion try to find the height and lca in reverse order
+try to make recursive function which return depth and lca of a root in 1 time when it is at any root.
+###### full code
 ```c++
+class Solution {
 
+public:
+
+    pair<int,TreeNode*> solve(TreeNode* root){
+
+        if(root==NULL) return {0,NULL};
+
+  
+  
+
+        auto it1=solve(root->left);
+
+        auto it2=solve(root->right);
+
+  
+
+        if(it1.first==it2.first){
+
+            return {it1.first+1,root};
+
+        }
+
+        if(it1.first>it2.first){
+
+            return {it1.first+1,it1.second};
+
+        }
+
+        if(it1.first<it2.first){
+
+            return {it2.first+1,it2.second};
+
+        }
+
+  
+
+        return {0,NULL};
+
+    }
+
+    TreeNode* subtreeWithAllDeepest(TreeNode* root) {
+
+  
+
+        return solve(root).second;
+
+    }
+
+};
 ```
-
