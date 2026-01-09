@@ -9,11 +9,17 @@ It is extension of prefix sum with difference array technique kind of.
 
 ###### Problems List
 
+1D based
+
 1. [Leetcode 1450](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/description/) 
 2. [Leetcode 1094](https://leetcode.com/problems/car-pooling/description/) 
 3. [Leetcode 1109]([https://leetcode.com/problems/corporate-flight-bookings/description/](https://leetcode.com/problems/corporate-flight-bookings/description/)) 
 4. [leetcode 1272 Premium Problem](https://leetcode.com/problems/remove-interval/description/) Alternative link for  [Lintcode 3678](https://www.lintcode.com/problem/3678/)   
    solution code hint for o(1) is [here](https://leetcode.ca/2019-05-25-1272-Remove-Interval/) it has o(1) space solution need to learn this imp
+5. [Leetcode 1854](https://leetcode.com/problems/maximum-population-year/) 
+6. [Leetcode 2848](https://leetcode.com/problems/points-that-intersect-with-cars/description/) 
+7. [Leetcode 253 Premuim Problem](https://leetcode.com/problems/meeting-rooms-ii/) alternative links- [Link1Gfg](https://www.geeksforgeeks.org/problems/attend-all-meetings-ii/1) [Link2NeetCode](https://neetcode.io/problems/meeting-schedule-ii/question) this question has more different way to solve it max min heap, two pointers and greedy for their solution see neetcode link.
+8. [Leetcode 252 Premium Problem](https://neetcode.io/problems/meeting-schedule/question) alternative link-[Link1NeetCode](https://neetcode.io/problems/meeting-schedule/question) this has o(1) solution
   
 
   
