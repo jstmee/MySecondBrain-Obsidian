@@ -9,4 +9,10 @@ need to cover
 have solve it my own tree dp problem which is not the most optimal way
 Solve it using most optimal approach need to revise it again.
 
+LCA
+[Leetcode 236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) #recusion
+use of recursion only one more solution not optimal use of array
+follow up problems
+
+
 
