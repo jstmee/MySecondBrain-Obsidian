@@ -19,6 +19,7 @@ Q1
 use of recursion only one more solution not optimal use of array
 follow up problems
 [Leetcode 865](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/description/) and [Leetcode 1123](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/) 
+[Leetcode 104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) height of tree
 ##### method 1 
 use of height of tree, lca, map, vector
 ###### code function
@@ -131,3 +132,7 @@ public:
 
 };
 ```
+
+
+
+  
