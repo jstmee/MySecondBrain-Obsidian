@@ -26,21 +26,21 @@ https://docs.google.com/spreadsheets/d/1LO1BLTebhrcRfEpPjIOutKvOFSFaFM3Ph1EjA12x
 11. [leetcode 370 Premium Problem](https://leetcode.com/problems/range-addition/) Alternative Link- [Link1 Lintcode 903](https://www.lintcode.com/problem/903/description) straight range update question 
 12. [Leetcode 2381](https://leetcode.com/problems/shifting-letters-ii/description/) very good question need to do it again and again
 13. [Leetcode 2406](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/description/) 
-14. [Leetcode 1229 Meeting Scheduler Premium Problem](https://leetcode.com/problems/meeting-scheduler/) alternative link- [LINK1 lintCode3653](https://www.lintcode.com/problem/3653/description)  
-15. [Gfg minimum-platforms](https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1) 
-16. [Leetcode 1229 Premium Problem](https://leetcode.com/problems/meeting-scheduler/) alternative link- [Link1lintcode 3653](https://www.lintcode.com/problem/3653/description)   VVIMP was not able to solve own my own
-17. https://leetcode.com/problems/count-positions-on-street-with-required-brightness/ 
+14. [Gfg minimum-platforms](https://www.geeksforgeeks.org/problems/minimum-platforms-1587115620/1) 
+15. [Leetcode 1229 Premium Problem](https://leetcode.com/problems/meeting-scheduler/) alternative link- [Link1lintcode 3653](https://www.lintcode.com/problem/3653/description)   VVIMP was not able to solve own my own
+16. https://leetcode.com/problems/count-positions-on-street-with-required-brightness/ 
 
 
 
 
-all of these are now interval based can be solve with interval based and without only1
+all of these are now interval based can be solve with interval based and without only1 they are solve on basis of sorting staring point or ending point based sorting custom sorting
 
 1.https://leetcode.com/problems/count-days-without-meetings/description/ 
  usual method will give tle
  it can also be solve using merge intervals method
+ it can be solve using interval based sorting solution codestorywithmik
 
-
+2. 452 leetcode https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/description/ tough need to under stand it.
 
 
 - [ ] 1272 [https://leetcode.com/problems/remove-interval/description/](https://leetcode.com/problems/remove-interval/description/)      
