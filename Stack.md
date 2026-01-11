@@ -43,6 +43,7 @@ https://www.geeksforgeeks.org/problems/immediate-smaller-element1142/1
 **Maximum area of binary matrix.**  
 [**https://www.geeksforgeeks.org/problems/max-rectangle/1**](https://www.geeksforgeeks.org/problems/max-rectangle/1)  
 [**https://leetcode.com/problems/maximal-rectangle/description/**](https://leetcode.com/problems/maximal-rectangle/description/?envType=daily-question&envId=2024-04-13)  
+https://leetcode.com/problems/maximal-square/description/
 [**https://leetcode.com/problems/sum-of-subarray-minimums/**](https://leetcode.com/problems/sum-of-subarray-minimums/)  
 [**https://leetcode.com/problems/sum-of-subarray-ranges/**](https://leetcode.com/problems/sum-of-subarray-ranges/)  
 [**https://leetcode.com/problems/maximum-subarray-min-product/description/**](https://leetcode.com/problems/maximum-subarray-min-product/description/)  
