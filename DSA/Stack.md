@@ -1,7 +1,9 @@
 
+need to complete this all
+https://www.geeksforgeeks.org/dsa/stack-data-structure/
 
-
-
+basic stack based or stl based
+https://maang.in/problems/Stack-AZ101-347
 
 
 
@@ -10,6 +12,7 @@ convert 2d to 1d think what should be done
 
 
 ---
+
 
 
 Notes–  
