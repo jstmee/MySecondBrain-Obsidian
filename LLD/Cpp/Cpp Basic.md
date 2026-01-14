@@ -1,4 +1,8 @@
 
+https://www.youtube.com/watch?v=GTHBqQIzPeU&list=PLLnzP07sd1MjGUEF7QULd2jNQOALyxBRJ&index=1
+best source with pointers.
+
+
 ```c++
 int a=5;
 int *b=&a;
