@@ -6,4 +6,9 @@ most imp is time complexity
 
 
 
+
+
+
+Basic hashing question use of set and map
+https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/
 https://leetcode.com/problems/count-caesar-cipher-pairs/
