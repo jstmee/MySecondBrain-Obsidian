@@ -6,3 +6,7 @@ both are most optimize algo
 solve own
 
 974 [https://leetcode.com/problems/subarray-sums-divisible-by-k/description/](https://leetcode.com/problems/subarray-sums-divisible-by-k/description/)
+
+
+prefix sum 2d basic question but use of 1d prefix
+https://leetcode.com/problems/largest-magic-square/description/
