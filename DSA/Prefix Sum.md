@@ -10,3 +10,7 @@ solve own
 
 prefix sum 2d basic question but use of 1d prefix
 https://leetcode.com/problems/largest-magic-square/description/
+
+2d prefix sum
+https://leetcode.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold/
+can also be solve using binary search most optimal
