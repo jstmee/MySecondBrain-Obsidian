@@ -14,4 +14,11 @@ All posting jo muje karni hai
 2. Workout clips
 
 -reel
-1. 
+1. Anime reel edit with workout 
+2. Workout montage with good songs
+3. Physics reel video
+4. Daily short vlog like saket or shashankk
+5. Informative video only speaking with face
+6. Workout clips with caption
+Idea is related to superchat in yt cut 30%
+Idea is to make a system which show text with money and not cut of money using subscription based only
