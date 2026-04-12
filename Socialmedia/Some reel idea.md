@@ -20,5 +20,6 @@ All posting jo muje karni hai
 4. Daily short vlog like saket or shashankk
 5. Informative video only speaking with face
 6. Workout clips with caption
+7. https://www.instagram.com/reel/DW_iCtNEngN/?igsh=MWVqdmx6eDk3NmNqNg== ek esi reel banai hia bina voice over ke sirftext rhega pure din kya kiya daily
 Idea is related to superchat in yt cut 30%
 Idea is to make a system which show text with money and not cut of money using subscription based only
