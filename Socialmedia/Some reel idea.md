@@ -1,7 +1,7 @@
 One is first line of daily reel
-Welcome to decripting my day 1 kind of thing
+Welcome to decrypting my day 1 kind of thing
 
-All posting jo muje karni hai
+All posting jo mujhe karni hai
 
 -post related
 1. pic with quotes kisi bhi anime pages se honge Jo Maine already saved kiye hai.
