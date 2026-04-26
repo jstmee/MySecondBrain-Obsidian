@@ -12,3 +12,8 @@ we can use lower bound upper bound in set
 Basic hashing question use of set and map
 https://leetcode.com/problems/maximum-square-area-by-removing-fences-from-a-field/
 https://leetcode.com/problems/count-caesar-cipher-pairs/
+
+
+
+hashing + prefix
+https://leetcode.com/problems/stable-subarrays-with-equal-boundary-and-interior-sum/
