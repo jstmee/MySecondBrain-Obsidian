@@ -186,3 +186,114 @@ int findMin(vector<int>& nums) {
 <!--SR:!2026-05-19,3,250-->
 
 
+Ques.
+Given a sorted array of length n having integers in the range 0,n-2. Every element is present once but only one element is present twice. Find the repeated element. Do in less than O(n).
+?
+for this use binary search source algocamp bs sanket singh
+now mid
+arr[mid] = = mid-1 if this is true means
+answer is left or arr[mid] is answer check a test case why.
+gfg article link https://www.geeksforgeeks.org/dsa/find-repeating-element-sorted-array-size-n/
+```c++
+while(left<=right){
+      int mid=(left+right)/2;
+      
+      if(arr[mid]==mid-1){
+           if(arr[mid]==arr[mid-1]){
+              ans=arr[mid];
+           }
+           right=mid-1;
+      }
+      else{
+           left=mid+1;
+      }
+}
+```
+<!--SR:!2026-05-19,3,250-->
+
+
+[540. Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)
+?
+using binary search how will i divide the array into two parts do indexing check and figure out.
+src codestorywithmik and striver take u forward
+two codes possible but striver i like it
+how to find two parts just index them check parity stuff then discard halves.
+code
+```c++
+int singleNonDuplicate(vector<int>& nums) {
+
+        int n=nums.size();
+
+        if(n==1){
+
+            return nums[0];
+
+        }
+
+        if(nums[0]!=nums[1]){
+
+            return nums[0];
+
+        }
+
+        if(nums[n-1]!=nums[n-2]){
+
+            return nums[n-1];
+
+        }
+
+        int left=1;
+
+        int right=n-2;
+
+        while(left<=right){
+
+            int mid=(left+right)/2;
+
+            if(nums[mid]!=nums[mid-1] and nums[mid]!=nums[mid+1]){
+
+                return nums[mid];
+
+            }
+
+            if((mid%2==0 and nums[mid]==nums[mid-1])or
+
+            (mid%2==1 and nums[mid]==nums[mid+1])){
+
+                right=mid-1;
+
+            }
+
+            else{
+
+                left=mid+1;
+
+            }
+
+        }
+
+        return -1;
+
+    }
+```
+<!--SR:!2026-05-19,3,250-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
