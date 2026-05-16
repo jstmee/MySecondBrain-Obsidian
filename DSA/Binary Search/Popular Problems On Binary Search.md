@@ -69,7 +69,7 @@ Q: [Leetcode 153 Find minimum in rotated sorted Array I](https://leetcode.com/pr
 ?
 A: follow up problem
 [Leetcode 154. Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
-one more followup
+one more follow-up
 https://takeuforward.org/plus/dsa/problems/find-out-how-many-times-the-array-is-rotated
 easy hai same as previous parts 
 for optimal
@@ -77,7 +77,29 @@ mid can be in two part upper half or lower half
 if upper half min will be right
 else left
 now how to find the min element
-code by striver take u forwrad
+now code by vivek gupta best
+```c++
+bool check(int mid,vector<int>& nums){
+        return nums[mid]<nums[0];
+    }
+    int findMin(vector<int>& nums) {
+        int n=nums.size();
+        int left=0,right=n-1;
+        int ans=0;
+        while(left<=right){
+            int mid=right+(left-right)/2;
+            if(check(mid,nums)){
+                ans=mid;
+                right=mid-1;
+            }
+            else{
+                left=mid+1;
+            }
+        }
+        return nums[ans];
+    }
+```
+code by striver take u forward
 ```c++
 int findMin(vector<int>& nums) {
         int n=nums.size();
