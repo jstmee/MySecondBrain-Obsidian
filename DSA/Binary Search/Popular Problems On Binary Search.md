@@ -1,11 +1,12 @@
 
+TARGET DECK: DSA::Binary Search::Popular Problems On Binary Search
 
 #flashcards/DSA/BinarySearch
 
 
-[Leetcode 33 Search in Rotated Sorted Array I](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
+Q: [Leetcode 33 Search in Rotated Sorted Array I](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
 ?
-[Leetcode 81 Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) 
+A: [Leetcode 81 Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) 
 source [takeuforward](https://www.youtube.com/watch?v=w2G2W8l__pc&list=PLgUwDviBIf0pMFMWuuvDNMAkoQFi-h0ZF&index=6)
 why without duplicate code not work
 failed test case 3 1 2 3 3 3 3 3 3
@@ -59,12 +60,14 @@ int search(vector<int>& nums, int target) {
         return -1;
     }
 ```
+<!--ID: 1778963005722-->
+
 <!--SR:!2026-05-19,3,250-->
 
 
-[Leetcode 153 Find minimum in rotated sorted Array I](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
+Q: [Leetcode 153 Find minimum in rotated sorted Array I](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
 ?
-follow up problem
+A: follow up problem
 [Leetcode 154. Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
 one more followup
 https://takeuforward.org/plus/dsa/problems/find-out-how-many-times-the-array-is-rotated
@@ -118,13 +121,15 @@ int findMin(vector<int>& nums) {
         return -1;
     }
 ```
+<!--ID: 1778963067608-->
+
 <!--SR:!2026-05-19,3,250-->
 
 
-Ques.
-Given a sorted array of length n having integers in the range 0,n-2. Every element is present once but only one element is present twice. Find the repeated element. Do in less than O(n).
+
+Q: Given a sorted array of length n having integers in the range 0,n-2. Every element is present once but only one element is present twice. Find the repeated element. Do in less than O(n).
 ?
-for this use binary search source algocamp bs sanket singh
+A: for this use binary search source algocamp bs sanket singh
 now mid
 arr[mid] = = mid-1 if this is true means
 answer is left or arr[mid] is answer check a test case why.
@@ -143,12 +148,14 @@ while(left<=right){
       }
 }
 ```
+<!--ID: 1778963067615-->
+
 <!--SR:!2026-05-19,3,250-->
 
 
-[540. Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)
+Q: [540. Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)
 ?
-using binary search how will i divide the array into two parts do indexing check and figure out.
+A: using binary search how will i divide the array into two parts do indexing check and figure out.
 src codestorywithmik and striver take u forward
 two codes possible but striver i like it
 how to find two parts just index them check parity stuff then discard halves.
@@ -183,6 +190,8 @@ int singleNonDuplicate(vector<int>& nums) {
         return -1;
     }
 ```
+<!--ID: 1778963067622-->
+
 <!--SR:!2026-05-19,3,250-->
 
 
