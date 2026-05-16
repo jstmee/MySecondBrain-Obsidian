@@ -1,7 +1,7 @@
 
 TARGET DECK: DSA::Binary Search::Popular Problems On Binary Search
 
-#flashcards/DSA/BinarySearch
+#flashcards/DSA/BinarySearch/PopularProblemsOnBinarySearch
 
 
 Q: [Leetcode 33 Search in Rotated Sorted Array I](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
