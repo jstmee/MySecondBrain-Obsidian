@@ -22,6 +22,4 @@ int main(){
 ```
 `
 
-Newenennen
-Lasttt
-2nd
+

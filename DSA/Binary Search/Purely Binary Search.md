@@ -2,10 +2,12 @@
 TARGET DECK: DSA::Binary Search::Purely Binary Search
 TAGS: Purely Binary Search
 
-#flashcards/DSA/BinarySearch/PurelyBinarySearch #PurelyBinarySearch
 
 
-Q: [Leetcode 33 Search in Rotated Sorted Array I](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
+#PurelyBinarySearch
+
+
+Q: [Leetcode 33 Search in Rotated Sorted Array I](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) 
 What are two different region jiske basis pe divide ho rha hai
 ?
 A: [Leetcode 81 Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) 
@@ -66,7 +68,7 @@ int search(vector<int>& nums, int target) {
 ```
 <!--ID: 1778963005722-->
 
-<!--SR:!2026-05-19,3,250-->
+
 
 
 Q: [Leetcode 153 Find minimum in rotated sorted Array I](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) 
@@ -150,7 +152,7 @@ int findMin(vector<int>& nums) {
 ```
 <!--ID: 1778963067608-->
 
-<!--SR:!2026-05-19,3,250-->
+
 
 
 
@@ -177,7 +179,7 @@ while(left<=right){
 ```
 <!--ID: 1778963067615-->
 
-<!--SR:!2026-05-19,3,250-->
+
 
 
 Q: [540. Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)
@@ -219,7 +221,7 @@ int singleNonDuplicate(vector<int>& nums) {
 ```
 <!--ID: 1778963067622-->
 
-<!--SR:!2026-05-19,3,250-->
+
 
 
 
