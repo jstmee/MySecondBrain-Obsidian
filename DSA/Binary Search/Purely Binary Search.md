@@ -1,11 +1,12 @@
 
-TARGET DECK: DSA::Binary Search::Popular Problems On Binary Search
+TARGET DECK: DSA::Binary Search::Purely Binary Search
 TAGS: Purely Binary Search
 
-#flashcards/DSA/BinarySearch/PopularProblemsOnBinarySearch #PureBinarySearchProblems
+#flashcards/DSA/BinarySearch/PurelyBinarySearch #PurelyBinarySearch
 
 
 Q: [Leetcode 33 Search in Rotated Sorted Array I](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
+What are two different region jiske basis pe divide ho rha hai
 ?
 A: [Leetcode 81 Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) 
 source [takeuforward](https://www.youtube.com/watch?v=w2G2W8l__pc&list=PLgUwDviBIf0pMFMWuuvDNMAkoQFi-h0ZF&index=6)
@@ -27,6 +28,8 @@ agar mid calculate karenge then
 mid can be in two parts either left sorted or right sorted part
 the two parts are one sorted part and other is unsorted use the sorted part to discard one half check the given element konse part me hoga
 now do the coding own if not see the code
+link:https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/2004215704/
+another https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/2006777370/ for skipping duplicates
 code
 ```c++
 int search(vector<int>& nums, int target) {
@@ -66,7 +69,8 @@ int search(vector<int>& nums, int target) {
 <!--SR:!2026-05-19,3,250-->
 
 
-Q: [Leetcode 153 Find minimum in rotated sorted Array I](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)
+Q: [Leetcode 153 Find minimum in rotated sorted Array I](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) 
+if you are doing with bs way what would be the default value when it work when it not.
 ?
 A: follow up problem
 [Leetcode 154. Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
@@ -78,7 +82,7 @@ mid can be in two part upper half or lower half
 if upper half min will be right
 else left
 now how to find the min element
-now code by vivek gupta best
+now code by vivek gupta best one to remember what should be default
 ```c++
 bool check(int mid,vector<int>& nums){
         return nums[mid]<nums[0];
@@ -121,7 +125,7 @@ int findMin(vector<int>& nums) {
         return ans;
     }
 ```
-code by sanket singh
+code by sanket singh discarded not feels good hard implementation.
 ```c++
 int findMin(vector<int>& nums) {
         int n=nums.size();
