@@ -1,10 +1,35 @@
 
 TARGET DECK: DSA::Binary Search::Purely Binary Search
-TAGS: Purely Binary Search
+
 
 
 
 #PurelyBinarySearch
+
+
+Q: what is stl for num>=x
+A: lower_bound(arr.begin(),arr.end(),x) it will return iterator if need index substract arr.begin()
+<!--ID: 1779234698678-->
+
+
+Q: what is stl for num>x
+A: upper_bound(arr.begin(),arr.end(),x)
+<!--ID: 1779234698685-->
+
+
+
+Q: [852. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) do it own no solution
+follow up is this [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) try vivek method remember default ans kya set karna hai in vivek method when all are 0 then answer wont update think two valid condition for 0000111
+try vivek gupta method 
+A: https://leetcode.com/problems/find-peak-element/submissions/2004955259/
+https://leetcode.com/problems/find-peak-element/submissions/2007659889/
+A: how to divide and how to handle it think do it own
+vivek gupta kind of solution
+ https://leetcode.com/problems/peak-index-in-a-mountain-array/
+ another cases binary search https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/2007600344/
+<!--ID: 1779221769372-->
+
+
 
 
 Q: [Leetcode 33 Search in Rotated Sorted Array I](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) 
@@ -74,7 +99,9 @@ int search(vector<int>& nums, int target) {
 Q: [Leetcode 153 Find minimum in rotated sorted Array I](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) 
 if you are doing with bs way what would be the default value when it work when it not.
 ?
-A: follow up problem
+A:  arr[mid]<arr[0] 1st
+arr[mid]<=arr[n-1] 2nd
+follow up problem
 [Leetcode 154. Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
 one more follow-up
 https://takeuforward.org/plus/dsa/problems/find-out-how-many-times-the-array-is-rotated
@@ -220,6 +247,97 @@ int singleNonDuplicate(vector<int>& nums) {
     }
 ```
 <!--ID: 1778963067622-->
+
+
+
+Q: https://maang.in/problems/Bitonic-Array-107
+Statement
+Given a bitonic array AA consisting of NN integers and an integer QQ. In each query, you will be given an integer KK, find the positions of KK in AA. Integer KK exists in AA.
+A bitonic array is a sequence with A[1]<A[2]<A[3]…A[k]>A[k+1]>A[k+2]…>A[N]A[1]<A[2]<A[3]…A[k]>A[k+1]>A[k+2]…>A[N] for some 1≤K≤N1≤K≤N.
+input
+The first line contains TT, the number of test cases (1≤T≤100001≤T≤10000). For each test case, the first line contains two space separated integers N,QN,Q where 1≤N≤1051≤N≤105, 1≤Q≤1061≤Q≤106. The second line contains NN space-separated integers A1,A2,…,ANA1​,A2​,…,AN​ where −109≤Ai≤109−109≤Ai​≤109. The next QQ lines each contain an integer KK, where −109≤K≤109−109≤K≤109. Sum of NN and QQ across all test cases ≤106≤106.
+For each test case print the positions of KK in AA in sorted order in a new line. **Positions are 1-indexed.**
+constraint
+1≤T≤10000 1≤N≤1051≤N≤105 1≤Q≤1061≤Q≤106 −109≤Ai,K≤109−109≤Ai​,K≤109 Sum of NN and QQ across all test cases ≤106≤106
+A: find the peak (maximum) element of the bitonic array using binary search. Then for each query KK, perform binary search on the increasing left part and the decreasing right part. For the sample, positions of queried values are printed (1-indexed).
+```c++
+#include<bits/stdc++.h>
+using namespace std;
+int n,q;
+vector<int> arr;
+bool check(int i){
+   if(arr[i]>arr[i-1]) return 1;
+   else return 0;
+}
+void solve(){
+   cin>>n>>q;
+   arr.resize(n);
+   for(int i=0;i<n;i++){
+       cin>>arr[i];
+   }
+   int lo = 1;
+   int hi = n-1;
+   int peak = 0;
+   while(lo<=hi){
+       int mid = (lo+hi)/2;
+       if(check(mid)){
+           peak = mid;
+           lo = mid + 1;
+       }else{
+           hi = mid - 1;
+       }
+   }
+   while(q--){
+       int k;
+       cin>>k;
+       vector<int> final;
+       lo = 0;
+       hi = peak-1;
+       while(lo<=hi){
+           int mid = (lo+hi)/2;
+           if(arr[mid]==k){
+               final.push_back(mid+1);
+               break;
+           }else if(arr[mid]>k){
+               hi=mid-1;
+           }else{
+               lo=mid+1;
+           }
+       }
+       lo = peak;
+       hi = n-1;
+       while(lo<=hi){
+           int mid = (lo+hi)/2;
+           if(arr[mid]==k){
+               final.push_back(mid+1);
+               break;
+           }else if(arr[mid]>k){
+               lo=mid+1;
+           }else{
+               hi=mid-1;
+           }
+       }
+       for(auto v:final){
+           cout<<v<<" ";
+       }  
+       cout<<endl;
+   }
+}
+signed main(){
+   ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
+   int _t;cin>>_t;while(_t--)
+   solve();
+}
+```
+<!--ID: 1779227011159-->
+
+
+
+
+
+
+
+
 
 
 
