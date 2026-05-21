@@ -94,7 +94,7 @@ Using comparators
 [**https://leetcode.com/problems/intersection-of-two-arrays/solutions/82118/c-two-pointer-easy-understand-solution/**](https://leetcode.com/problems/intersection-of-two-arrays/solutions/82118/c-two-pointer-easy-understand-solution/)
 
 [**https://leetcode.com/problems/count-the-number-of-good-partitions/**](https://leetcode.com/problems/count-the-number-of-good-partitions/)  
-**Take example as 1 2 1 2 3 4 and 1 2 1 3**
+**Take example as 1 2 1 2 3 4 and 1 2 1 3** solution need to see https://leetcode.com/problems/count-the-number-of-good-partitions/solutions/4385301/standard-counting-dp-one-solution-to-all-mfsi/ can also be solved using merge interval pattern see solution section.
 
 [**https://leetcode.com/problems/maximum-odd-binary-number/**](https://leetcode.com/problems/maximum-odd-binary-number/)
 
