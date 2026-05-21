@@ -18,13 +18,14 @@ A: upper_bound(arr.begin(),arr.end(),x)
 
 
 
-Q: [852. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) do it own no solution
+Q: [852. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) do it own no solution for vivek method what is condtion think there is a condition
 follow up is this [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) try vivek method remember default ans kya set karna hai in vivek method when all are 0 then answer wont update think two valid condition for 0000111
 try vivek gupta method 
 A: https://leetcode.com/problems/find-peak-element/submissions/2004955259/
 https://leetcode.com/problems/find-peak-element/submissions/2007659889/
-A: how to divide and how to handle it think do it own
+how to divide and how to handle it think do it own
 vivek gupta kind of solution
+condition arr[mid]>arr[mid+1]
  https://leetcode.com/problems/peak-index-in-a-mountain-array/
  another cases binary search https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/2007600344/
 <!--ID: 1779221769372-->
