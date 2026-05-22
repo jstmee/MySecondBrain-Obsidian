@@ -58,6 +58,7 @@ the two parts are one sorted part and other is unsorted use the sorted part to d
 now do the coding own if not see the code
 link:https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/2004215704/
 another https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/2006777370/ for skipping duplicates
+we can also solve it by first find the min element then do binary searach on left part and right part
 code
 ```c++
 int search(vector<int>& nums, int target) {
@@ -251,7 +252,7 @@ int singleNonDuplicate(vector<int>& nums) {
 
 
 
-Q: https://maang.in/problems/Bitonic-Array-107
+Q: https://maang.in/problems/Bitonic-Array-107 another link https://www.interviewbit.com/problems/search-in-bitonic-array/ 
 Statement
 Given a bitonic array AA consisting of NN integers and an integer QQ. In each query, you will be given an integer KK, find the positions of KK in AA. Integer KK exists in AA.
 A bitonic array is a sequence with A[1]<A[2]<A[3]…A[k]>A[k+1]>A[k+2]…>A[N]A[1]<A[2]<A[3]…A[k]>A[k+1]>A[k+2]…>A[N] for some 1≤K≤N1≤K≤N.
@@ -263,71 +264,83 @@ constraint
 A: find the peak (maximum) element of the bitonic array using binary search. Then for each query KK, perform binary search on the increasing left part and the decreasing right part. For the sample, positions of queried values are printed (1-indexed).
 ```c++
 #include<bits/stdc++.h>
+#define int long long
 using namespace std;
-int n,q;
-vector<int> arr;
-bool check(int i){
-   if(arr[i]>arr[i-1]) return 1;
-   else return 0;
+bool check(int mid,vector<int> &arr){
+    if(mid+1>=arr.size()) return 1;
+    if(arr[mid]>=arr[mid+1])return 1;
+    return 0;
 }
-void solve(){
-   cin>>n>>q;
-   arr.resize(n);
-   for(int i=0;i<n;i++){
-       cin>>arr[i];
-   }
-   int lo = 1;
-   int hi = n-1;
-   int peak = 0;
-   while(lo<=hi){
-       int mid = (lo+hi)/2;
-       if(check(mid)){
-           peak = mid;
-           lo = mid + 1;
-       }else{
-           hi = mid - 1;
-       }
-   }
-   while(q--){
-       int k;
-       cin>>k;
-       vector<int> final;
-       lo = 0;
-       hi = peak-1;
-       while(lo<=hi){
-           int mid = (lo+hi)/2;
-           if(arr[mid]==k){
-               final.push_back(mid+1);
-               break;
-           }else if(arr[mid]>k){
-               hi=mid-1;
-           }else{
-               lo=mid+1;
-           }
-       }
-       lo = peak;
-       hi = n-1;
-       while(lo<=hi){
-           int mid = (lo+hi)/2;
-           if(arr[mid]==k){
-               final.push_back(mid+1);
-               break;
-           }else if(arr[mid]>k){
-               lo=mid+1;
-           }else{
-               hi=mid-1;
-           }
-       }
-       for(auto v:final){
-           cout<<v<<" ";
-       }  
-       cout<<endl;
-   }
+void myf() {
+    int n,q;cin>>n>>q;
+    vector<int> v(n);
+    for(int i=0;i<n;i++){
+        cin>>v[i];
+    }
+    int left=0;
+    int right=n-1;
+    int ans1=-1;
+    while(left<=right){
+        int mid=right+(left-right)/2;
+        if(check(mid,v)){
+            ans1=mid;
+            right=mid-1;
+        }
+        else{
+            left=mid+1;
+        }
+    }
+    int miniindx=ans1;
+    while(q--){
+        int k;cin>>k;
+        int left1=0;
+        int right1=miniindx-1;
+        vector<int> ans;
+        while(left1<=right1){
+            int mid=right1+(left1-right1)/2;
+            if(v[mid]==k) {
+                ans.push_back(mid+1);
+                break;
+            }
+            if(v[mid]>k){
+                right1=mid-1;
+            }
+            else{
+                left1=mid+1;
+            }
+        }
+        int left2=miniindx;
+        int right2=n-1;
+        while(left2<=right2){
+            int mid=right2+(left2-right2)/2;
+            if(v[mid]==k) {
+                ans.push_back(mid+1);
+                break;
+            }
+            if(v[mid]>k){
+                left2=mid+1;
+            }
+            else{
+                right2=mid-1;
+            }
+        }
+        sort(ans.begin(),ans.end());
+        for(auto it:ans){
+            cout<<it<<" ";
+        }
+        cout<<endl;
+    }
 }
-signed main(){
-   ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
-   int _t;cin>>_t;while(_t--)
-   solve();
+int32_t main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    int t;
+    t=1;
+    cin>>t;
+    while(t--) {
+        myf();
+    }
+    return 0;
 }
 ```
 <!--ID: 1779227011159-->
