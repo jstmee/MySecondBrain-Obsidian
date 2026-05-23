@@ -1,7 +1,6 @@
 
 Never get tle video
 https://maang.in/cohorts/AZ-Premium-Cohort-13-64/live-session/Never-get-TLE-ever-again-989
-
 nothing imp in this vid
 
 
@@ -57,6 +56,7 @@ s1+s2<s1+s2 this can derive using exchange argument
 
 find the no of pairs i, j such that arr[i] == arr[j] for a given array i< j
 n<=1e5 and arr[i]<=1e5
+make freq array global for each test case reverse the calculations
 
 ---
 
