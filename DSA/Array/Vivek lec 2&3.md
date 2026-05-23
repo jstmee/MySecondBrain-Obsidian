@@ -62,5 +62,6 @@ make freq array global for each test case reverse the calculations
 
 
 ![[Pasted image 20260523102156.png]]
+in this question lev2 and lev3 require techniques.
 
 ---
