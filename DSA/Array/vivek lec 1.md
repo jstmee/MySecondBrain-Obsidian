@@ -36,7 +36,7 @@ Skills to train
 ----
 
 
-Things to do in every problems
+Things to do write about every problems
 1.Concept theory
 2.Framework
 3.Forms

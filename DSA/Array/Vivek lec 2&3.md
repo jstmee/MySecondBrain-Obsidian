@@ -49,7 +49,7 @@ int solve(){
 https://codeforces.com/problemset/problem/632/C
 https://leetcode.com/problems/largest-number/
 thinking process sorting use of custom comparator type
-s1+s2<s1+s2 this can derive using exchange argument
+s1+s2<s1+s2 this can derive using exchange argument in greed topic
 
 ----
 
