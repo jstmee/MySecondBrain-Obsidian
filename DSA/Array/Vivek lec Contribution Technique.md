@@ -22,7 +22,7 @@ Ques2
 ![[Pasted image 20260118014449.png]]
 
 Same as sum of all subarrays do column vise
-How many times each element is comming in all triplet
+How many times each element is coming in all triplet
 So we have.   _  _ _ one we knw other can be anything else apart from others
 So n-1C2 × arr[I] for all elements.
 
@@ -69,16 +69,50 @@ Product of product of all subarray
 
 Quest
 Leetcode 2262
-It can be solved by two pointer but need to solve using contribution technique
+It can be solved by two pointer but need to solve using contribution technique many other possible way to solve
+codingmohan video:https://www.youtube.com/watch?v=uuBBafS9rgU his solution and code is simple
+his code 
+```c++
+long long appealSum(string s) {
+        int n = s.size();
+        long long ans = 0;
+        vector<char> v;
+        for (int i = 0; i < 26; i++) {
+            char vowel = 'a' + i;
+            int last = -1;
+            for (int i = 0; i < n; i++) {
+                if (s[i] == vowel) {
+                    ans += (i + 1);
+                    last = i;
+                } else {
+                    if (last != -1) {
+                        ans += last+1;
+                    }
+                }
+            }
+        }
+        return ans;
+    }
+```
 What is atomic item?
 a to z present or not
 For no of distinct in subarray give value why because it has a b c etc whether a is present b is present.....or not it is atomic item.
 So no of subarray having a will +1
-
+link - https://www.youtube.com/watch?v=jdSRCHUFUDc
+example for a string aba
+              apresent     bpresent
+a                         +1               +0
+b                                             +1
+a                          +1
+ab                        +1               +1
+ba                         +1              +1
+aba                        +1                +1
+ now instead of doing horizontally we do vertically
 a _ _ _ a it will have   6C2-4C2 TOTAL - DO NOT HAVE
 __ __ b b __ __ 
 6C2-2C2-3C2 NO OF SUBARRAY WHICH CONTAINS b.
-It also contains find no of subarray that does not contains x
+Now the problem is reduced to find how many time a character is present in all subarray
+It also contains find no of subarray that does not contains x this can be solved using map and without map
 How to code it.
 ```c++
 long long n=s.length();
@@ -106,8 +140,16 @@ return ans;
 
 ---
 https://atcoder.jp/contests/abc186/tasks/abc186_d
+sol it is of abs we need to find
+for any fix j we have to find it positive and negative contribution because of absolute.
+if we sort it then we can easily do this
+for fix index j we have  left contribution which will be positive and its right contribution which is negative.
+submission - https://atcoder.jp/contests/abc186/submissions/76114734 
 
+---
 
+https://leetcode.com/problems/vowels-of-all-substrings/description/ 
+my submission - https://leetcode.com/problems/vowels-of-all-substrings/submissions/2011951258/
 
 -----
 
@@ -118,6 +160,7 @@ Using stl
 Given array of size n and integer X. Find no of pair i,j i<j and arri+ arr[j]=X. Two sum problem leetcode
 Fox one point ending easy ...... That is for every end weare maintaining a data structure maybe stl.
 
+-----
 
 
 Ques
@@ -128,3 +171,31 @@ So arri>=k-arrj
 So we can use set lower bound function stl for find  
 ![[Pasted image 20260524070914.png]]            
 
+----
+
+Some more problems on Contribution Technique if in case anyone wants to practise,
+
+  
+
+1) https://leetcode.com/problems/vowels-of-all-substrings/description/
+
+2) https://leetcode.com/problems/total-appeal-of-a-string/
+
+3) https://leetcode.com/problems/count-vowel-substrings-of-a-string/
+
+4) https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/
+
+5) https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/description/
+
+6) https://leetcode.com/problems/vowels-of-all-substrings/
+
+7) https://leetcode.com/problems/find-the-median-of-the-uniqueness-array/
+
+  
+
+LC Weekly Problems:
+
+1) https://leetcode.com/contest/weekly-contest-433/problems/maximum-and-minimum-sums-of-at-most-size-k-subsequences/description/
+
+2) https://leetcode.com/contest/weekly-contest-433/problems/maximum-and-minimum-sums-of-at-most-size-k-subarrays/description/
+https://leetcode.com/problems/sum-of-total-strength-of-wizards/solutions/2062017/c-prefix-monotonic-stack-o-n-solution-with-thought-process/
