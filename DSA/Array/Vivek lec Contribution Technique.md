@@ -13,6 +13,7 @@ Double summation type problem go through all subarray and do sum of something ca
 
 
 [find sum of all subarray of an array](https://www.geeksforgeeks.org/problems/sum-of-subarrays2229/1)
+Here atomic item contribution is index
 
 -----
 
@@ -58,10 +59,37 @@ Which is ending at i. Like kadane medium blog
 Suppose dpi is prod summation ending at i then what would be for i+1?? Which is numi+numi×dpi-1.
 This technique can be applied to sum of all subarray one also.
 
+----
+
+
+Find product of sum of all subarray
+Product of product of all subarray
+
+----
+
+Quest
+Leetcode 2262
+It can be solved by two pointer but need to solve using contribution technique
+What is atomic item?
+a to z present or not
+For no of distinct in subarray give value why because it has a b c etc whether a is present b is present.....or not it is atomic item.
+So no of subarray having a will +1
+
+a _ _ _ a it will have   6C2-4C2 TOTAL - DO NOT HAVE
+__ __ b b __ __ 
+6C2-2C2-3C2 NO OF SUBARRAY WHICH CONTAINS b.
+It also contains find no of subarray that does not contains x
+How to code it.
+
+
+
+-----
+
+
 
 Using stl 
 
-Given array of size n and integer X. Findno of pair i,j i<j and arri+ arr[j]=X. Two sum problem leetcode
+Given array of size n and integer X. Find no of pair i,j i<j and arri+ arr[j]=X. Two sum problem leetcode
 Fox one point ending easy ...... That is for every end weare maintaining a data structure maybe stl.
 
 
