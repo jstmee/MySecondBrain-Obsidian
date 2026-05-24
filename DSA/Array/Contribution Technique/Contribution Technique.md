@@ -9,7 +9,6 @@ https://medium.com/@alok.g.v/data-structures-and-algorithms-dsa-concept-subarray
 https://youkn0wwho.academy/topic-list/contribution_technique
 
 
-
 Contribution tech
 1. Atomic item technique
 2. Extended contribution sum of product can be solved by this quest sum of products of all subarray
