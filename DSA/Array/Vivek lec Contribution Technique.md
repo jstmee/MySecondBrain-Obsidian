@@ -80,6 +80,32 @@ __ __ b b __ __
 6C2-2C2-3C2 NO OF SUBARRAY WHICH CONTAINS b.
 It also contains find no of subarray that does not contains x
 How to code it.
+```c++
+long long n=s.length();
+long long ans=0;
+for(char ch='a;ch<='z;ch++){
+	int last=-1;
+	long long contrib=n*(n+1)/2;
+	for(int i=0;i<n;i++){
+		if(s[i]==ch){
+			long long len=i-last-1;
+			if(len>0){
+				contrib-=(len+1)*len/2;
+			}
+			last=i;
+		}
+	}
+	long long len=n-last-1;
+	if(len>0){
+		contrib-=(len+1)*len/2;
+	}
+	ans+=contrib;
+}
+return ans;
+```
+
+---
+https://atcoder.jp/contests/abc186/tasks/abc186_d
 
 
 
