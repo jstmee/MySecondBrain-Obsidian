@@ -7,7 +7,11 @@ Contribution technique
 
 ![[Pasted image 20260118014110.png]]
 
-1.atomic item contribution form
+**1.atomic item contribution form**
+
+Double summation type problem go through all subarray and do sum of something can be solved
+
+
 [find sum of all subarray of an array](https://www.geeksforgeeks.org/problems/sum-of-subarrays2229/1)
 
 -----
@@ -38,7 +42,33 @@ We are doing reverse
 Asked for every subarray go and count no of inversion
 Let's think reverse
 For a inversion count pair in how many subarray it is present.
-So overall it will be o(n^2).
+So overall it will be o(n^2). We can do on nlogn using advance data struct
 ![[Pasted image 20260524062559.png]] 
 
 ---
+
+
+#### contribution at pivot end
+
+Ques
+Find the sum of products of all possible subarray
+Here previous method won't work atomic item won't work why??? It's rowvise sum and column vise product
+Idea is extending at end or beginning 
+Which is ending at i. Like kadane medium blog
+Suppose dpi is prod summation ending at i then what would be for i+1?? Which is numi+numi×dpi-1.
+This technique can be applied to sum of all subarray one also.
+
+
+Using stl 
+
+Given array of size n and integer X. Findno of pair i,j i<j and arri+ arr[j]=X. Two sum problem leetcode
+Fox one point ending easy ...... That is for every end weare maintaining a data structure maybe stl.
+
+
+
+Ques
+Given array of sz n and integer k. Find smallest value of arri+arri I<j and arri+arri>=k
+Solve
+Fix j
+So arri>=k-arrj
+So we can use set lower bound function stl for find 
