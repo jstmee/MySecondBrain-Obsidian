@@ -70,5 +70,7 @@ Ques
 Given array of sz n and integer k. Find smallest value of arri+arri I<j and arri+arri>=k
 Solve
 Fix j
-So arri>=k-arrj
-So we can use set lower bound function stl for find 
+So arri>=k-arrj     
+So we can use set lower bound function stl for find  
+![[Pasted image 20260524070914.png]]            
+
