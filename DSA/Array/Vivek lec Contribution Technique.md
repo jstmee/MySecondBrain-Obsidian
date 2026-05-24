@@ -1,19 +1,23 @@
 
 
+
+
+
 Contribution technique
 
-1. Atomic item contribution
-2. Contribution at pivot (end)
-     a. Extension
-     b. Data structure usage
+![[Pasted image 20260118014110.png]]
+
+1.atomic item contribution form
+[find sum of all subarray of an array](https://www.geeksforgeeks.org/problems/sum-of-subarrays2229/1)
+
+
+![[Pasted image 20260118014449.png]]
+
+
+![[Pasted image 20260118015251.png]]
 
 
 
-# atomic item contribution
+![[Pasted image 20260118015835.png]]
 
 
- Eg sum of all subarray problem
- 
-1 sum of all subarray
-
-2.
