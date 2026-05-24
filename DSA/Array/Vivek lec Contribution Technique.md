@@ -158,7 +158,7 @@ my submission - https://leetcode.com/problems/vowels-of-all-substrings/submissio
 Using stl 
 
 Given array of size n and integer X. Find no of pair i,j i<j and arri+ arr[j]=X. Two sum problem leetcode
-Fox one point ending easy ...... That is for every end weare maintaining a data structure maybe stl.
+Fox one point ending easy ...... That is for every end we are maintaining a data structure maybe stl.
 
 -----
 
@@ -173,7 +173,7 @@ So we can use set lower bound function stl for find
 
 ----
 
-Some more problems on Contribution Technique if in case anyone wants to practise,
+Some more problems on Contribution Technique if in case anyone wants to practice,
 
   
 
