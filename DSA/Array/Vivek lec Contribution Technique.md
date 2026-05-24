@@ -37,4 +37,5 @@ Which is equal to i+1 ×  right lines
 We are doing reverse 
 Asked for every subarray go and count no of inversion
 Let's think reverse
-For a inversion count in how many subarray it is present.
+For a inversion count pair in how many subarray it is present.
+So overall it will be o(n^2).
