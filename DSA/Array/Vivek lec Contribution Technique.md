@@ -140,13 +140,6 @@ for(char ch='a;ch<='z;ch++){
 return ans;
 ```
 
----
-https://atcoder.jp/contests/abc186/tasks/abc186_d
-sol it is of abs we need to find
-for any fix j we have to find it positive and negative contribution because of absolute.
-if we sort it then we can easily do this
-for fix index j we have  left contribution which will be positive and its right contribution which is negative.
-submission - https://atcoder.jp/contests/abc186/submissions/76114734 
 
 ---
 

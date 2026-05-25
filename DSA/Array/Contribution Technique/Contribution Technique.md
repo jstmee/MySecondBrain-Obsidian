@@ -77,26 +77,52 @@ void solve(){
 
 
 
- [2262. Total Appeal of A String](https://leetcode.com/problems/total-appeal-of-a-string/) 
-It can be solved by use ending at j index thing to solve it) and two pointer(vivek method)
-its code:
+Q:  [2262. Total Appeal of A String](https://leetcode.com/problems/total-appeal-of-a-string/) 
+A: need to solve using contribution technique many other possible way to solve
+What is atomic item?
+a to z present or not
+For no of distinct in subarray give value why because it has a b c etc whether a is present b is present.....or not it is atomic item.
+So no of subarray having a will +1
+link - https://www.youtube.com/watch?v=jdSRCHUFUDc
+example for a string aba
+              apresent     bpresent
+a                         +1               +0
+b                                             +1
+a                          +1
+ab                        +1               +1
+ba                         +1              +1
+aba                        +1                +1
+ now instead of doing horizontally we do vertically
+a _ _ _ a it will have   6C2-4C2 TOTAL - DO NOT HAVE
+__ __ b b __ __ 
+6C2-2C2-3C2 NO OF SUBARRAY WHICH CONTAINS b.
+Now the problem is reduced to find total no of subarray which contains a character vivek method uses total find not contain
+It also contains find no of subarray that does not contains x this can be solved using map and without map
+How to code it.
 ```c++
 long long appealSum(string s) {
-        vector<int> last(26, -1);
+        long long n = s.length();
         long long ans = 0;
-        long long cur = 0;
-        for(int i = 0; i < s.size(); i++) {
-            cur += i - last[s[i] - 'a'];
-            ans += cur;
-            last[s[i] - 'a'] = i;
+        for (char ch ='a'; ch<='z'; ch++) {
+            int last = -1;
+            long long contrib = n * (n + 1) / 2;
+            for (int i = 0; i < n; i++) {
+                if (s[i] == ch) {
+                    long long len = i - last - 1;
+                    contrib -= (len + 1) * len / 2;
+                    last = i;
+                }
+            }
+            long long len = n - last - 1;
+            contrib -= (len + 1) * len / 2;
+            ans += contrib;
         }
         return ans;
     }
 ```
-but need to solve using contribution technique many other possible way to solve
-codingmohan video:https://www.youtube.com/watch?v=uuBBafS9rgU his solution and code is simple
-think of smaller problem of having only two characters, total no of substring atleast 1 1
-his code 
+for total subarray which contain a character directly uses codingmohan method
+codingmohan no need to see the video just use ending at j method to find it.
+its code
 ```c++
 long long appealSum(string s) {
         int n = s.size();
@@ -119,6 +145,22 @@ long long appealSum(string s) {
         return ans;
     }
 ```
+method It can be solved by use ending at j index thing to solve it) 
+its code:
+```c++
+long long appealSum(string s) {
+        vector<int> last(26, -1);
+        long long ans = 0;
+        long long cur = 0;
+        for(int i = 0; i < s.size(); i++) {
+            cur += i - last[s[i] - 'a'];
+            ans += cur;
+            last[s[i] - 'a'] = i;
+        }
+        return ans;
+    }
+```
+it can also be solved using two pointer method atmostk -atmostk-1 distinct method
 another solution
 ```c++
 long long appealSum(string s) {
@@ -137,46 +179,14 @@ long long appealSum(string s) {
         return ans;
     }
 ```
-What is atomic item?
-a to z present or not
-For no of distinct in subarray give value why because it has a b c etc whether a is present b is present.....or not it is atomic item.
-So no of subarray having a will +1
-link - https://www.youtube.com/watch?v=jdSRCHUFUDc
-example for a string aba
-              apresent     bpresent
-a                         +1               +0
-b                                             +1
-a                          +1
-ab                        +1               +1
-ba                         +1              +1
-aba                        +1                +1
- now instead of doing horizontally we do vertically
-a _ _ _ a it will have   6C2-4C2 TOTAL - DO NOT HAVE
-__ __ b b __ __ 
-6C2-2C2-3C2 NO OF SUBARRAY WHICH CONTAINS b.
-Now the problem is reduced to find how many time a character is present in all subarray
-It also contains find no of subarray that does not contains x this can be solved using map and without map
-How to code it.
-```c++
-long long n=s.length();
-long long ans=0;
-for(char ch='a;ch<='z;ch++){
-	int last=-1;
-	long long contrib=n*(n+1)/2;
-	for(int i=0;i<n;i++){
-		if(s[i]==ch){
-			long long len=i-last-1;
-			if(len>0){
-				contrib-=(len+1)*len/2;
-			}
-			last=i;
-		}
-	}
-	long long len=n-last-1;
-	if(len>0){
-		contrib-=(len+1)*len/2;
-	}
-	ans+=contrib;
-}
-return ans;
-```
+<!--ID: 1779676463418-->
+
+
+Q: https://atcoder.jp/contests/abc186/tasks/abc186_d
+A: sol it is of abs we need to find
+for any fix j we have to find it positive and negative contribution because of absolute.
+if we sort it then we can easily do this
+for fix index j we have  left contribution which will be positive and its right contribution which is negative. Only think what would be left and right
+left would be i x v[i] and right would be (n-i-1) x v[i]
+submission - https://atcoder.jp/contests/abc186/submissions/76114734 
+<!--ID: 1779676923434-->
