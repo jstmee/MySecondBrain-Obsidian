@@ -24,9 +24,11 @@ Ques2
 Same as sum of all subarrays do column vise
 How many times each element is coming in all triplet
 So we have.   _  _ _ one we knw other can be anything else apart from others
+we know one element say mid now we have to select any two element from the rest of the elements
 So n-1C2 × arr[I] for all elements.
 
 -----
+
 
 Ques3
 ![[Pasted image 20260118015835.png]]
@@ -34,7 +36,7 @@ Ques3
 We have to do this in n^2 
 Correlated with previous problems
 We choose subarray then sum
-Similarly here choose subarray then inversion
+Similarly here choose inversion then subarray
 So count a inversion for which it is part of.
 Here atomic item is each inversion.
 So for particular inversion i j what is how many subarray will this inversion  now find try dry
@@ -145,6 +147,15 @@ for any fix j we have to find it positive and negative contribution because of a
 if we sort it then we can easily do this
 for fix index j we have  left contribution which will be positive and its right contribution which is negative.
 submission - https://atcoder.jp/contests/abc186/submissions/76114734 
+
+---
+
+[828. Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/) 
+use of contribution instead of all substring think in reverse count for all char in how many string it will be unique
+rest solution is implementation based
+source vivek video solution on question link - https://maang.in/problems/Count-Unique-Char-in-Substrings-63
+submission link: https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/submissions/2012115389/
+
 
 ---
 
