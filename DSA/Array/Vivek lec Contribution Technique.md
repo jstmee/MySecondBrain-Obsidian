@@ -141,19 +141,7 @@ return ans;
 ```
 
 
----
 
-[828. Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/) 
-use of contribution instead of all substring think in reverse count for all char in how many string it will be unique
-rest solution is implementation based
-source vivek video solution on question link - https://maang.in/problems/Count-Unique-Char-in-Substrings-63
-submission link: https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/submissions/2012115389/
-
-
----
-
-https://leetcode.com/problems/vowels-of-all-substrings/description/ 
-my submission - https://leetcode.com/problems/vowels-of-all-substrings/submissions/2011951258/
 
 -----
 

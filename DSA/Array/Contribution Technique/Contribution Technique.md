@@ -36,7 +36,7 @@ Is total - I+1 total is n+1 lines.
 <!--ID: 1779507707035-->
 
 
-Q: ![[Pasted image 20260525061819.png]]
+Q: You are given an array Arr of N integers. Calculate the sum of Arri+arr[j]+arrk for all triplets of indices (i,j,k) such that 0<=i<j<k<=n-1. Print final answer mod 1e9+7. n<=1e5
 A: Same as sum of all subarrays do column vise
 How many times each element is coming in all triplet
 So we have.   _  _ _ one we knw one other can be anything else apart from chosen
@@ -45,7 +45,7 @@ So n-1C2 × arr[I] for all elements.
 <!--ID: 1779670288719-->
 
 
-Q: ![[Pasted image 20260525063447.png]]
+Q: an inversion is define as pair of i,j i< j and arr[i]>arr[j]. Given array of sz n calculate the sum of inversion counts of all possible subarrays. 
 A: same as previous think of atomic item it is inversion
 We have to do this in n^2 
 Correlated with previous problems
@@ -190,3 +190,21 @@ for fix index j we have  left contribution which will be positive and its right 
 left would be i x v[i] and right would be (n-i-1) x v[i]
 submission - https://atcoder.jp/contests/abc186/submissions/76114734 
 <!--ID: 1779676923434-->
+
+
+
+Q: [828. Count Unique Characters of All Substrings of a Given String](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/) 
+A: use of contribution instead of all substring think in reverse count for all char in how many string it will be unique
+rest solution is implementation based ek particular index ya char left side utna he extend ho paega jab tak voh vapis na ajae similarly for right so overall implementation. For this we will use 2d matrix
+ek particular character kis kis position pe hai uske store karlenge sath me -1 aur n be dalenge start aur end me fir es par traverse karenge answer nikalne ke liye easy.
+source vivek video solution on question link - https://maang.in/problems/Count-Unique-Char-in-Substrings-63
+submission link: https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/submissions/2012115389/
+<!--ID: 1779679464273-->
+
+
+Q: [2063. Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/)
+A: think in reverse way contribution technique contribution of all vowels
+then solve it suing ending at index j method same as lc 2262
+my own code - https://leetcode.com/problems/vowels-of-all-substrings/submissions/2011951258/
+<!--ID: 1779680726930-->
+
