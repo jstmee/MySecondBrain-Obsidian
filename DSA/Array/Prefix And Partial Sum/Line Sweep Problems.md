@@ -1,4 +1,3 @@
-#PrefixSum 
 
 prequisite is prefix sum
 It is extension of prefix sum with difference array technique kind of.
