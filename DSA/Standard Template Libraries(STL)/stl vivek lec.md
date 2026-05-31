@@ -16,3 +16,31 @@ and data containers it has various data structures to use for storing data.
 next_permutation and prev_permutation give next and previous permutation
 https://maang.in/problems/Generating-Permutations-AZ101-366
 
+-----
+
+Standard template library(stl)
+
+1. Algorithm.  
+      Sort
+      Reverse
+      Upper bound lower bound
+      nth element
+      Next_permutation
+      Random shuffle
+
+
+
+2. Data structure containers
+     Vector
+     Stack
+     Pair
+     Set
+     Queue
+     Map
+     Multiset
+     Priority_queue
+     Bitset
+     Deque
+     List
+     Tuple
+     Unordered
