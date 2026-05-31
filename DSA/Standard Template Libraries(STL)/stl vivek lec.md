@@ -42,5 +42,31 @@ Standard template library(stl)
      Bitset
      Deque
      List
-     Tuple
      Unordered
+
+
+Sort   nlogn
+sort(arr,arr+5) here arr+5 is not included 
+arr[2]=\*(arr+2) same for 2[arr]
+Global variable has 0 by default.
+Internally it uses intro sort hybrid sorting
+
+
+Vector
+v.clear() removes all element o1 we can use stack using vector in place of stack but for interview try to use stack.
+
+Stack
+First in last out or last in first out all o1
+
+Queue
+Use when we have to insert from back and pop from front
+First in first out or last in last out
+
+Dqueue
+Use when we have to insert from both end
+Deque can give element in using index it is close to vector but it is slower that y try not to use it. 
+
+
+List is doubly linked list
+list<int> li
+Only use when need to delete on o1 from any mid part
