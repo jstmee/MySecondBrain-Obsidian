@@ -18,7 +18,7 @@ A: upper_bound(arr.begin(),arr.end(),x)
 
 
 
-Q: [852. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) do it own no solution for vivek method what is condtion think there is a condition
+Q: [852. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/) do it own no solution for vivek method what is condition think there is a condition
 follow up is this [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/) try vivek method remember default ans kya set karna hai in vivek method when all are 0 then answer wont update think two valid condition for 0000111
 try vivek gupta method 
 A: https://leetcode.com/problems/find-peak-element/submissions/2004955259/
