@@ -79,4 +79,4 @@ Internally used red black tree type of  balance binary search tree
 Multiset - set+ allowed duplicates 
 Unordered set - set+no sorted 
 
-Priority queue give max element min element insert in  logn rest  o1 like multiset
+Priority queue give max element min element insert in  logn rest  o1 like multiset it handle duplicate element like multiset
