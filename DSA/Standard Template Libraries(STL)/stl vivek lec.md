@@ -52,7 +52,7 @@ Global variable has 0 by default.
 Internally it uses intro sort hybrid sorting
 
 
-Vector
+Vector []
 v.clear() removes all element o1 we can use stack using vector in place of stack but for interview try to use stack.
 
 Stack
@@ -70,3 +70,13 @@ Deque can give element in using index it is close to vector but it is slower tha
 List is doubly linked list
 list<int> li
 Only use when need to delete on o1 from any mid part
+
+
+Set like vector always sorted,all distinct, no random access
+{} All in log n
+Internally used red black tree type of  balance binary search tree 
+
+Multiset - set+ allowed duplicates 
+Unordered set - set+no sorted 
+
+Priority queue give max element min element insert in  logn rest  o1
