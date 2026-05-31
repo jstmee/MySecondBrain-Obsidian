@@ -20,10 +20,15 @@ hashing + prefix
 https://leetcode.com/problems/stable-subarrays-with-equal-boundary-and-interior-sum/
 
 
+
 Q: [3043. Find the Length of the Longest Common Prefix](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/) read the problem and answer think
 A: try bruteforce use of map set stl
 submission: https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/submissions/2009325349/
-#MapSetSTL #UseSTL #OnlyStl 
+#MapSetSTL #UseSTL #OnlySTL 
 <!--ID: 1779389882400-->
 
 
+Q: [2006. Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)
+A: easy hai you can solve it own
+#MapSTL #UseSTL #OnlySTL  
+<!--ID: 1780217540668-->
