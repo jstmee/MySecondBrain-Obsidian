@@ -26,5 +26,5 @@ Now if the question change no of distinct batao then how?? We have to create a d
 Now to optimize original question to oofn
 Obs is whenever we geta min element element greater can never be answer this is main core obs
 Now think of deque do dry run using this obs then code it own.
-Time complexity of code will o(nk)but amortised complexity is oofn 
+Time complexity of code will o(n2)but amortised complexity is oofn 
 
