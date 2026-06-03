@@ -5,7 +5,7 @@ https://maang.in/playlists/STL-Applications-3395?resourceUrl=cs87-cp504-pl3395-r
 
 Check balance parenthesis
 Use a depth variable
-Condition for balanced is depth atlast should be 0 and depth at any point should not neg
+Condition for balanced is depth at last should be 0 and depth at any point should not neg
 Follow up if there are more than 1 type of bracket then depth thing won't work use of stack to solve it. Because relative order is not maintained using depth.
 For any type of bracket closed last should be of same type of open bracket.
 Convert to numbers +1,+2,+3,-1,-2,-3
