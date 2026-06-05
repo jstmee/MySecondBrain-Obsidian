@@ -13,7 +13,7 @@ Now try to do the code yourself for valid parenthesis leetcode 20
 For code see the video.
 
 first basis question 
-Checked balanced paranthethis 
+Checked balanced parentheses 
 ()()((())) For this
 By using depth variable if open depth +1 close depth-1
 By using ( as +1 and ) as -1 it can extend to more if there are different brackets
