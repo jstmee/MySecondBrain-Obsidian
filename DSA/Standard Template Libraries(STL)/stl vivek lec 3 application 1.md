@@ -42,4 +42,4 @@ int solve(string s){
 }
 ```
 next what if multiple types of characters are there how to solve it
-same way but use of stack efficient implementation is important by using and it cannot be solved by depth variable alone why????
+same way but use of stack efficient implementation is important by using and it cannot be solved by depth variable alone why???? We need order maintainance hence stack
