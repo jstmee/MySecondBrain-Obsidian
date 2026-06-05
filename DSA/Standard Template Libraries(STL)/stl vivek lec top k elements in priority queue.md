@@ -78,7 +78,7 @@ struct bag{
 
 
 Ques design a structure where we can insert a number remove and find the median at any points
-relation question but easy one : https://leetcode.com/problems/find-median-from-data-stream/description/
+relation question but easy one : https://leetcode.com/problems/find-median-from-data-stream/description/ but how can i solve it with priority queue as we don't need remove operation here.
 same as partition into two parts where we we have maintain size we don't knw. think more he has shown the code he has shown write code again in another video 
 same now find mean median and mode, variance including insert and remove
 https://maang.in/playlists/STL-Applications-3395?resourceUrl=cs87-cp504-pl3395-rs7925&returnUrl=%5B%22%2Fcourses%2FSTL-in-C-87%3Ftab%3Dchapters%22%5D
@@ -110,7 +110,7 @@ struct data_dashboard{
 			high.erase(high.find(x));
 			low.insert(x);
 		}
-		while(low.size()>high.size()){
+		while(low.size()>high.size()+1){
 			int x=*low.rbegin();
 			low.erase(low.find(x));
 			high.insert(x);
