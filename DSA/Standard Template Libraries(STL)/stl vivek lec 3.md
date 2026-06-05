@@ -1,30 +1,13 @@
 
 
-
-Two array types
-1.window maintain sliding window
-2.subarray finding
+https://maang.in/playlists/STL-Applications-3395?resourceUrl=cs87-cp504-pl3395-rs7921&returnUrl=%5B%22%2Fcourses%2FSTL-in-C-87%3Ftab%3Dchapters%22%5D
 
 
-
-Ques find min of every k size window of an array 
-Similar no of district of every k window
-Find max
-No of even no in every  k length
-Find no of prime no in every k length
-All of these have almost same code template
-It is like find something(f(x)) all x of length k in array.
-Simple is n.k solution
-For a subarray we need to find min so that we can also find the min of next subarray after removing but how?? Two thing ways to optimize
-1.either observation
-2.things /information are shared
-Now write requirement 
-We have to maintain a data structure which support erase, and get min element
-This can easily be done by multiset stl
-This can be solved using deque most optimized(monotone deque)
-Now if the question change no of distinct batao then how?? We have to create a data structure using map
-Now to optimize original question to oofn
-Obs is whenever we get min element element greater can never be answer this is main core obs
-Now think of deque do dry run using this obs then code it own.
-Time complexity of code will o(n2)but amortised complexity is oofn 
-
+Check balance parenthesis
+Use a depth variable
+Condition for balanced is depth at last should be 0 and depth at any point should not neg
+Follow up if there are more than 1 type of bracket then depth thing won't work use of stack to solve it. Because relative order is not maintained using depth.
+For any type of bracket closed last should be of same type of open bracket.
+Convert to numbers +1,+2,+3,-1,-2,-3
+Now try to do the code yourself for valid parenthesis leetcode 20
+For code see the video.
