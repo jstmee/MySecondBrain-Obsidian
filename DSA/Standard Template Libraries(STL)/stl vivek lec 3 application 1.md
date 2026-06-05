@@ -17,5 +17,6 @@ Checked balanced paranthethis
 ()()((())) For this
 By using depth variable if open depth +1 close depth-1
 By using ( as +1 and ) as -1 it can extend to more if there are different brackets
-Now answer is if depth atlast is 0 and depth atanu points is not negative.
+Depth=(# of open - # of closed)
+Now answer is if depth atlast is 0 and depth at any points is not negative.
 
