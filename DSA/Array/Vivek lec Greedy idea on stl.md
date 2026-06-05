@@ -20,7 +20,7 @@ Let's say we swap bi and bj
 Then
 aibi+ajbj<aibj+ajbi
 This gives
-bi>bj means B should in descending order.
+bi>bj means B should in descending order
 
 
 Ques
