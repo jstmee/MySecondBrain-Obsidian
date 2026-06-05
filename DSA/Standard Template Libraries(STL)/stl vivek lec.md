@@ -72,11 +72,11 @@ list<int> li
 Only use when need to delete on o1 from any mid part
 
 
-Set like vector always sorted,all distinct, no random access
+Set like vector always sorted, all distinct, no random access
 {} All in log n
 Internally used red black tree type of  balance binary search tree 
 
 Multiset - set+ allowed duplicates 
-Unordered set - set+no sorted 
+Unordered set - set + no sorted 
 
 Priority queue give max element min element insert in  logn rest  o1 like multiset it handle duplicate element like multiset
