@@ -11,3 +11,5 @@ For any type of bracket closed last should be of same type of open bracket.
 Convert to numbers +1,+2,+3,-1,-2,-3
 Now try to do the code yourself for valid parenthesis leetcode 20
 For code see the video.
+
+first basis question 
