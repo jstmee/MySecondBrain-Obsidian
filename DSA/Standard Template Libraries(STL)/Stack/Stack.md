@@ -30,6 +30,7 @@ int solve(string s){
 	else return false;
 }
 ```
+#Stack #withoutstack #StackSTL #UseOfStack 
 <!--ID: 1780666093109-->
 
 
@@ -70,6 +71,7 @@ solve(){
     return isbalanced;
 }
 ```
+#Stack #StackSTL #UseOfStack 
 <!--ID: 1780666229491-->
 
 
@@ -77,6 +79,7 @@ solve(){
 Q: [921. Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) there is o(1) space solution available solve it with stack and without stack.
 A:  depth means no of unmatched '(' seen so far so when depth is negative we need one extra bracket and we have to set depth to 0 again. o(1) space solution https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/submissions/2023329458/
 submission link - https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/submissions/2023323405/
+#Stack #withoutstack #StackSTL #UseOfStack 
 <!--ID: 1780667197408-->
 
 
