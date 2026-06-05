@@ -18,5 +18,28 @@ Checked balanced paranthethis
 By using depth variable if open depth +1 close depth-1
 By using ( as +1 and ) as -1 it can extend to more if there are different brackets
 Depth=(# of open - # of closed)
-Now answer is if depth atlast is 0 and depth at any points is not negative.
-
+Now answer is if depth at last is 0 and depth at any points is not negative.
+```c++
+int solve(string s){
+	//string s;cin>>s;
+	int depth=0;
+	int is_balanced=1;
+	for(auto v:s){
+		if(v=='('){
+			depth++;
+		}
+		else{
+			depth--;
+		}
+		if(depth<0){
+			is_balanced=false;
+			break;
+		}
+	}
+	if(depth!=0) is_balanced=0;
+	if(is_balanced) return true;
+	else return false;
+}
+```
+next what if multiple types of characters are there how to solve it
+same way but use of stack efficient implementation is important by using and it cannot be solved by depth variable alone why????
