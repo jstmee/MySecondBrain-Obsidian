@@ -13,3 +13,9 @@ Now try to do the code yourself for valid parenthesis leetcode 20
 For code see the video.
 
 first basis question 
+Checked balanced paranthethis 
+()()((())) For this
+By using depth variable if open depth +1 close depth-1
+By using ( as +1 and ) as -1 it can extend to more if there are different brackets
+Now answer is if depth atlast is 0 and depth atanu points is not negative.
+
