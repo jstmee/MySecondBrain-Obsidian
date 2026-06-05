@@ -41,5 +41,41 @@ int solve(string s){
 	else return false;
 }
 ```
+follow up is valid parentheses leetcode 20
 next what if multiple types of characters are there how to solve it
-same way but use of stack efficient implementation is important by using and it cannot be solved by depth variable alone why???? We need order maintainance hence stack
+same way but use of stack efficient implementation is important by using and it cannot be solved by depth variable alone why???? We need order maintenance hence stack
+how to implement it without to0 much cases
+convert all the opening bracket with +1,+2,+3 and closing
+AS -1,-2,-3 can be extend to more 
+```c++
+solve(){
+	string s;
+    map<char,int> mp;
+    mp['(']=+1;
+    mp['[']=+2;
+    mp['{']=+3;
+    mp[')']=-1;
+    mp[']']=-2;
+    mp['}']=-3;
+    stack<int> st;
+    isbalanced=1;
+    for(auto it:s){
+	    int val=mp[it];
+	    if(val>0){
+		    //open bracket
+		    st.push(val);
+	    }
+	    else{
+		    if(st.size()>0 and st.top()+val==0){
+			    st.pop();
+		    }
+		    else{
+			    isbalacned=0;
+			    break;
+		    }
+	    }
+    }
+    if(st.size()>0) isbalance=0;
+    return isbalanced;
+}
+```
