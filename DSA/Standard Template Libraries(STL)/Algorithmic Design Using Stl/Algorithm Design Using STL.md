@@ -1,5 +1,7 @@
 
 
+TARGET DECK: DSA::Standard Template Libraries(STL)::Algorithm Design Using STL
+
 
 
 Q: Design a data structure in form of struct where insert, remove, sum getmax and getdistinct is possible we will getting a number everytime do it own easy hai
@@ -35,3 +37,4 @@ struc bag{
 	}
 }
 ```
+<!--ID: 1780662327885-->
