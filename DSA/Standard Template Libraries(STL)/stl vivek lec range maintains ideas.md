@@ -23,11 +23,47 @@ how?? we need to maintain sorted in set of pair
 need to make cases 
 ```c++
 struct range_maintainance{
-    range<pair<int,int>> st;
+    set<pair<int,int>> st;
 	void fill_range(int l,int r){
+		//find partial merging at start and ending ignore middle ranges then merge
 	}
 	void clear_range(int l,int r){
 	}
-	bool check_point()
+	bool check_point(int x){
+		auto it=upper_bound({{x,1e9}})//imp line for using upper bound in pair of set
+		if(it==it.begin()){
+			return 0;
+		}
+		else{
+			it--;
+			if(it->second>=x){
+				return 1;
+			}
+			else return 0;
+		}
+	}
+	bool check_range_any(int x,int y){
+		auto it=st.upper_bound({x,1e9});
+		if(it!=st.end()){
+			if(it->first<=y){
+				return 1;
+			}
+		}
+		//there is 1 more case need to think which and why
+		return check_point(x);
+	}
+	bool check_range_all(int x,int y){
+		auto it=upper_bound({{x,1e9}})//imp line for using upper bound in pair of set
+		if(it==it.begin()){
+			return 0;
+		}
+		else{
+			it--;
+			if(it->second>=y){
+				return 1;
+			}
+			else return 0;
+		}
+	}
 };
 ```
