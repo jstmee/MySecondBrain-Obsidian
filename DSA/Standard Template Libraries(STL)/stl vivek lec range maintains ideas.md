@@ -26,6 +26,10 @@ struct range_maintainance{
     set<pair<int,int>> st;
 	void fill_range(int l,int r){
 		//find partial merging at start and ending ignore middle ranges then merge
+		//removed from l 
+		//removed frm r
+		//removed from between
+		
 	}
 	void clear_range(int l,int r){
 	}
