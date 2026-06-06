@@ -21,3 +21,12 @@ Qu 1 fill the range [l,r] that is merging of two interval that is union
 constraint q<=1e5, l,r<=1e9 x,y <=1e9 all points are distinct
 how?? we need to maintain sorted in set of pair
 need to make cases 
+```c++
+struct range_maintainance{
+	void fill_range(int l,int r){
+	}
+	void clear_range(int l,int r){
+	}
+	bool check_point()
+};
+```
