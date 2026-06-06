@@ -23,7 +23,7 @@ how?? we need to maintain sorted in set of pair
 need to make cases 
 ```c++
 struct range_maintainance{
-    range<pair<int,int>> ranges;
+    range<pair<int,int>> st;
 	void fill_range(int l,int r){
 	}
 	void clear_range(int l,int r){
