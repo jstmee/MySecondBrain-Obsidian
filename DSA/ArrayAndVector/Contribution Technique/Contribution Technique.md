@@ -122,7 +122,7 @@ long long appealSum(string s) {
 ```
 for total subarray which contain a character directly uses codingmohan method
 codingmohan no need to see the video just use ending at j method to find it.
-its code
+its code basically this is ending at method using contribution
 ```c++
 long long appealSum(string s) {
         int n = s.size();
@@ -145,17 +145,21 @@ long long appealSum(string s) {
         return ans;
     }
 ```
-method It can be solved by use ending at j index thing to solve it) 
+method above solution led to this o(n) solution
 its code:
 ```c++
 long long appealSum(string s) {
-        vector<int> last(26, -1);
-        long long ans = 0;
-        long long cur = 0;
-        for(int i = 0; i < s.size(); i++) {
-            cur += i - last[s[i] - 'a'];
-            ans += cur;
-            last[s[i] - 'a'] = i;
+        long long n=s.size();
+        long long ans=0;
+        long long curr=0;
+        map<char,int> mp;
+        for(char c='a';c<='z';c++){
+            mp[c]=-1;
+        }
+        for(int i=0;i<n;i++){
+            curr+=(i-mp[s[i]]);
+            mp[s[i]]=i;
+            ans+=curr;
         }
         return ans;
     }
