@@ -3,6 +3,9 @@
 TARGET DECK: DSA::Standard Template Libraries(STL)::Algorithm Design Using STL
 
 
+more sheet on design https://docs.google.com/spreadsheets/d/1tKUIxkCscKuSY-Q7Mq3EG1amc6XZYkIf8ty8HrkEw4E/edit?gid=1429868306#gid=1429868306
+
+
 
 Q: Design a data structure in form of struct where insert, remove, sum getmax and getdistinct is possible we will getting a number everytime do it own easy hai
 A: do it own here is code
@@ -71,7 +74,7 @@ struct bag{
 Q:  implement structure where insert, removed, getsum of top k elements is supported efficiently
 A: now we have to support remove in this operation as well for this we need to use 2 structure 
 one for k topk and other is for the other numbers. that is two partition
-as we have to remove from both part so multiset should be used from the both sets and partiotn doing coz we have to efficiently. use we are maintaining a k size fixed and inserting removing it here and there
+as we have to remove from both part so multiset should be used from the both sets and partition doing coz we have to efficiently. use we are maintaining a k size fixed and inserting removing it here and there
 ```c++
 struct bag{
 	int k;

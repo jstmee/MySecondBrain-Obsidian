@@ -208,7 +208,7 @@ submission link: https://leetcode.com/problems/count-unique-characters-of-all-su
 
 Q: [2063. Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/)
 A: think in reverse way contribution technique contribution of all vowels
-then solve it suing ending at index j method same as lc 2262
+read the question what it ask for then count the contribution of each vowels then add all
 my own code - https://leetcode.com/problems/vowels-of-all-substrings/submissions/2011951258/
 <!--ID: 1779680726930-->
 
