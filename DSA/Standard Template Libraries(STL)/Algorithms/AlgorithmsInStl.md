@@ -1,7 +1,7 @@
 
 TARGET DECK: DSA::Standard Template Libraries(STL)::Algorithms
 
-Q: next_permutation(v.begin(),v.end()) and prev_permutation(v.begin(),v.end())
+Q: next_permutation(v.begin(),v.end()) and prev_permutation(v.begin(),v.end()) this return null when next permutation not available. and this change in the same vector just like sort.
 A: return true or false if next permutation exist or not same for prev
 code to print all permutation of number from 1 to n in lexicographic order
 ```c++
