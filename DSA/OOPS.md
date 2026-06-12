@@ -146,6 +146,23 @@ upcast matlb dog ko animal boldena kyuki dog to animal hai he, downcast matlb an
 
 Q: abstract class vs interface
 A: both let u define a constract that subclasses must fullfull, but they are not interchangeable
+abstract class can have  both abstract method(method with no implementations) and normal methods with data variables. It is used when multiple derived class shared common methods or data
+```c++
+class Animal {  
+public:  
+	virtual void sound() = 0; // abstract method 
+	void sleep() {  
+		cout << "Sleeping\n";  
+	}  
+};
+// and a derived class must implement all pure virutal functions
+class Dog : public Animal {
+public:
+    void sound() override {
+        cout << "Bark\n";
+    }
+};
+```
 ![[Pasted image 20260613000233.png]]
 In **Java/C#**, `interface` and `abstract class`  are distinct keywords. abstract means normal
 In **C++**, the `interface` keyword does not exist. To make an interface in C++, you simply create an abstract class where **every single method** is a pure virtual function (written as `= 0`). Since C++ allows you to inherit from multiple classes, this achieves the exact same result.
