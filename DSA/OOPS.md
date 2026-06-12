@@ -1,7 +1,6 @@
 Src pdf https://docs.google.com/document/d/1FFI3u55MnsS6WHroBwxJi2dFNP9_Kc9CtH0WiNC8DLM/edit?tab=t.0
 
 
-TARGET DECK: OOPS
 
 Q: what is oops
 A: oops models a program as objects that bundle data fields with behaviour that acts on it method.
