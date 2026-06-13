@@ -45,6 +45,7 @@ pair<int,int> getredfrac(int a,int b){
 	if(a==0&&b==0) return make_pair(0,0);
 	if(a==0) return make_pair(1,0);
 	if(b==0) return make_pair(0,1);
+	//how to handle negative number easy hai think bas
 	int x=__gcd(a,b);
 	return make_pair(a/x,b/x);
 }
@@ -70,5 +71,8 @@ bruteforce is go every pairs find the line and then check every point who lie on
 this is easy have done it own- https://leetcode.com/problems/max-points-on-a-line/submissions/2031980932/
 now try for n=2000 do it in n^2
 use of map how store slope count in map now slope is fraction use faction reduce method to do this
+make sure to handle negative number in fract
 submission- https://leetcode.com/problems/max-points-on-a-line/submissions/2031991906/
+<!--ID: 1781369999247-->
+
 
