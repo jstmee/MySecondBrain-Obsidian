@@ -1,6 +1,9 @@
 Src pdf https://docs.google.com/document/d/1FFI3u55MnsS6WHroBwxJi2dFNP9_Kc9CtH0WiNC8DLM/edit?tab=t.0
 
 
+TARGET DECK: DSA::OOPS
+
+
 
 Q: what is oops
 A: oops models a program as objects that bundle data fields with behaviour that acts on it method.
@@ -163,7 +166,26 @@ public:
     }
 };
 ```
-![[Pasted image 20260613000233.png]]
+in c++ interface is usually implemented using a class having only pure virtual method use ony when you want any class inheriting this must implement it.
+- Every vehicle has a speed variable and a common method → Abstract Class.
+- Some objects can fly → Interface.
+```c++
+class Vehicle {
+protected:
+    int speed;
+};
+class Flyable {
+public:
+    virtual void fly() = 0;
+};
+class Airplane : public Vehicle, public Flyable {
+public:
+    void fly() override {
+        cout << "Flying\n";
+    }
+};
+```
+![[Pasted image 20260613023227.png]]
 In **Java/C#**, `interface` and `abstract class`  are distinct keywords. abstract means normal
 In **C++**, the `interface` keyword does not exist. To make an interface in C++, you simply create an abstract class where **every single method** is a pure virtual function (written as `= 0`). Since C++ allows you to inherit from multiple classes, this achieves the exact same result.
 abstract class matlb aadhi bani hui cheez jo related classes apna ke poori karti hai ek he parivaar. interface matlb ek capability ka contract jo koi bhi class utha sakti hai jaise drivable ko car bhi implement kare aur tractor bhi bale dono ka koi rhista na ho.
