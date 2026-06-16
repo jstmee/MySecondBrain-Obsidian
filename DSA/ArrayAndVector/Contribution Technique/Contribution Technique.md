@@ -13,8 +13,8 @@ https://youkn0wwho.academy/topic-list/contribution_technique
 
 
 Q: Given array find sum of all subarrays
-Link-https://www.geeksforgeeks.org/problems/sum-of-subarrays2229/1
-A: Method 1 contribution technique
+Link-https://www.geeksforgeeks.org/problems/sum-of-subarrays2229/1 there are two method to solve it first i ending at index i method dp wala and other is contribution technique think in opposite
+A: Method 1 contribution technique note this can also be solved using ending at index i sum of subarray method dp method
 Do not watch algoprep video.
 Think contribution of each element of array in which which subarray it can comes
 What can be it's start index and what can be it's end index
@@ -33,6 +33,7 @@ Egg
  xC1xyC1 IS ANSWER.
 If we at i the then I+1 line left left
 Is total - I+1 total is n+1 lines.
+submission for method 2-
 <!--ID: 1779507707035-->
 
 
