@@ -210,5 +210,6 @@ Q: [2063. Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-
 A: think in reverse way contribution technique contribution of all vowels
 read the question what it ask for then count the contribution of each vowels then add all
 my own code - https://leetcode.com/problems/vowels-of-all-substrings/submissions/2011951258/
+we can also solve it using ending at i index method dp method ending which can be reduce to o(1) space easily.
 <!--ID: 1779680726930-->
 
