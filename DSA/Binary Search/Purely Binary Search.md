@@ -33,11 +33,16 @@ condition arr[mid]>arr[mid+1]
 
 
 
-Q: [Leetcode 33 Search in Rotated Sorted Array I](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) 
-What are two different region jiske basis pe divide ho rha hai
+Q: [Leetcode 33 Search in Rotated Sorted Array I](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) [Leetcode 81 Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) 
+What are two different region jiske basis pe divide ho rha hai 
+1.solve it using normal method without using vivek method
+1.1 solve for what if duplicates are present in it.
+2.solve it using vivek method first find min indx the do bs on left and right sorted part
 ?
 A: [Leetcode 81 Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) 
 source [takeuforward](https://www.youtube.com/watch?v=w2G2W8l__pc&list=PLgUwDviBIf0pMFMWuuvDNMAkoQFi-h0ZF&index=6)
+link for the codes are 1 - https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/2036647569/
+link for 2 is https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/2036678684/
 why without duplicate code not work
 failed test case 3 1 2 3 3 3 3 3 3
 here mid, left and right all equal hence it needed to shrink by one on both side.
