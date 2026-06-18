@@ -147,6 +147,7 @@ long long appealSum(string s) {
     }
 ```
 method above solution led to this o(n) solution
+this method is based on ending at ith index dp method ending at 
 its code:
 ```c++
 long long appealSum(string s) {
