@@ -208,7 +208,7 @@ submission link: https://leetcode.com/problems/count-unique-characters-of-all-su
 <!--ID: 1779679464273-->
 
 
-Q: [2063. Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/)
+Q: [2063. Vowels of All Substrings](https://leetcode.com/problems/vowels-of-all-substrings/) read the question correctly how it is considering vowels and next time solve it using dp ending at i method
 A: think in reverse way contribution technique contribution of all vowels
 read the question what it ask for then count the contribution of each vowels then add all
 my own code - https://leetcode.com/problems/vowels-of-all-substrings/submissions/2011951258/
