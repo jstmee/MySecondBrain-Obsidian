@@ -257,7 +257,7 @@ int singleNonDuplicate(vector<int>& nums) {
 
 
 
-Q: https://maang.in/problems/Bitonic-Array-107 another link https://www.interviewbit.com/problems/search-in-bitonic-array/ 
+Q: https://maang.in/problems/Bitonic-Array-107 another link https://www.interviewbit.com/problems/search-in-bitonic-array/  this time solve it using maang link own
 Statement
 Given a bitonic array AA consisting of NN integers and an integer QQ. In each query, you will be given an integer KK, find the positions of KK in AA. Integer KK exists in AA.
 A bitonic array is a sequence with A[1]<A[2]<A[3]…A[k]>A[k+1]>A[k+2]…>A[N]A[1]<A[2]<A[3]…A[k]>A[k+1]>A[k+2]…>A[N] for some 1≤K≤N1≤K≤N.

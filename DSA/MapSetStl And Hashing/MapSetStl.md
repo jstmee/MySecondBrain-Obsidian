@@ -70,10 +70,9 @@ A: src vivek video - link https://maang.in/playlists/Greedy-Sweepline-Day-1-4961
 bruteforce is go every pairs find the line and then check every point who lie on this line
 this is easy have done it own- https://leetcode.com/problems/max-points-on-a-line/submissions/2031980932/
 now try for n=2000 do it in n^2
-use of map how store slope count in map now slope is fraction use faction reduce method to do this
-make sure to handle negative number in fract in the leetcode version it has given all points are unique 
-submission- https://leetcode.com/problems/max-points-on-a-line/submissions/2031991906/
-how to handle if points are not uniques 2,2 2,2 3,3 3,3 for this answer sould be 4 for this see the video again and again to understand it is because we return 0,0 for the same numbers.
+use of map how store slope count in map now slope is fraction use faction reduce method to do this submission- https://leetcode.com/problems/max-points-on-a-line/submissions/2031991906/
+make sure to handle negative number in fract in the leetcode version it has given all points are unique how in code https://leetcode.com/problems/max-points-on-a-line/submissions/2044803984/
+how to handle if points are not uniques 2,2 2,2 3,3 3,3 for this answer should be 4 for this see the video again and again to understand it is because we return 0,0 for the same numbers.
 submission of not unique - https://leetcode.com/problems/max-points-on-a-line/submissions/2032005313/
 <!--ID: 1781369999247-->
 
