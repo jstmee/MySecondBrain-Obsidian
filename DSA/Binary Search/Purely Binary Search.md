@@ -4,8 +4,6 @@ TARGET DECK: DSA::Binary Search::Purely Binary Search
 
 
 
-#PurelyBinarySearch
-
 
 Q: what is stl for num>=x
 A: lower_bound(arr.begin(),arr.end(),x) it will return iterator if need index substract arr.begin()
@@ -28,6 +26,7 @@ vivek gupta kind of solution
 condition arr[mid]>arr[mid+1]
  https://leetcode.com/problems/peak-index-in-a-mountain-array/
  another cases binary search https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/2007600344/
+ #PurelyBinarySearch 
 <!--ID: 1779221769372-->
 
 
@@ -98,6 +97,7 @@ int search(vector<int>& nums, int target) {
         return -1;
     }
 ```
+#PurelyBinarySearch 
 <!--ID: 1778963005722-->
 
 
@@ -184,6 +184,7 @@ int findMin(vector<int>& nums) {
         return -1;
     }
 ```
+#PurelyBinarySearch 
 <!--ID: 1778963067608-->
 
 
@@ -211,6 +212,7 @@ while(left<=right){
       }
 }
 ```
+#PurelyBinarySearch 
 <!--ID: 1778963067615-->
 
 
@@ -253,6 +255,7 @@ int singleNonDuplicate(vector<int>& nums) {
         return -1;
     }
 ```
+#PurelyBinarySearch 
 <!--ID: 1778963067622-->
 
 
@@ -348,6 +351,7 @@ int32_t main() {
     return 0;
 }
 ```
+#PurelyBinarySearch
 <!--ID: 1779227011159-->
 
 
