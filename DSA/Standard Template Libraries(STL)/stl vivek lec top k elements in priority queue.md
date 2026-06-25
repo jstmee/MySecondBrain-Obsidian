@@ -57,6 +57,7 @@ struct bag{
 	void removed(int x){
 		if(topk.find(x)!=topk.end()){
 			topk.erase(topk.find(x));
+			sumk-=x;
 		}
 		else if(removed.find(x)!=removed.end()){
 			removed.erase(removed.find(x));
