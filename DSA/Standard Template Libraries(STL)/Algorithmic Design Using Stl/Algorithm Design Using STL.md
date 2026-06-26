@@ -224,3 +224,11 @@ struct data_dashboard{
 ```
 <!--ID: 1780748917808-->
 
+
+Q: [1352. Product of the Last K Numbers](https://leetcode.com/problems/product-of-the-last-k-numbers/) solve it using o1 complexity only
+A: src solution is vivek video - https://maang.in/playlists/Algorithmic-Design-Ideas-3400?resourceUrl=cs87-cp504-pl3400-rs7938&returnUrl=%5B%22%2Fcourses%2FSTL-in-C-87%3Ftab%3Doverview%22%5D
+method 1 is maintain a list then find the product of last k elements; which is very easy do not need to implement it;
+solve it suing o1 time complexity
+using of product prefix array how will we handle 0 case 
+https://leetcode.com/problems/product-of-the-last-k-numbers/submissions/2046269323/
+<!--ID: 1782431956019-->
