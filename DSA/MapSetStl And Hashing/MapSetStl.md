@@ -28,10 +28,29 @@ submission: https://leetcode.com/problems/find-the-length-of-the-longest-common-
 <!--ID: 1779389882400-->
 
 
+
+
 Q: [2006. Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)
 A: easy hai you can solve it own
 #MapSTL #UseSTL #OnlySTL  
 <!--ID: 1780217540668-->
+
+
+Q: https://www.codechef.com/problems/DIVSUBS
+A: given we have to find subsets and check whether there exist or not yes or not so what if we find any subarray present now according to pigeon hole there should be 1 subarray for the given condition
+The answer is always YES irrespective of the array.  
+Consider the _pref[i]_ = (_A1 + A2 + ... + Ai_) mod _N_. Base conditions _pref[0]_ = 0.  
+Observe that there are _N_ + 1 values in the _pref_ array _(pref[0], pref[1], ...., pref[N])_, but the remainder can take in total _N_ values only (0, 1, ..., _N_ - 1). That means, there exists at least one pair in the _pref_ array which has the same entries.    
+Suppose _pref[j] == pref[k]_, and _k_ > _j_. Then we can conclude that (_Aj+1 + ... + Ak_) is divisible by _N_.
+hence, this solution.
+submission link- https://www.codechef.com/viewsolution/1295750076
+similar problems
+[560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)
+[974. Subarray Sums Divisible by K](https://leetcode.com/problems/subarray-sums-divisible-by-k/) 
+[2006. Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) 
+#PigeonholePrinciple #PrefixSum #MapSetSTL 
+<!--ID: 1782490775241-->
+
 
 
 
