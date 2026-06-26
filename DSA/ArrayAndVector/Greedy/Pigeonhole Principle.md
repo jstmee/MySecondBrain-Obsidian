@@ -8,3 +8,4 @@ https://maang.in/playlists/Greedy-Sweepline-Day-5-4962?resourceUrl=pl4962-rs8460
 
 https://www.youtube.com/watch?v=4VyJrH3ynqg&list=PLEPYybVRtwQdv0dGnfmCj9I4_d0GLPVGt&index=4
 
+5 pigeon and 4 holes then at least 1 hole has 2 pigeon
