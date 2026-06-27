@@ -82,6 +82,19 @@ submission link - https://leetcode.com/problems/minimum-add-to-make-parentheses-
 #Stack #withoutstack #StackSTL #UseOfStack 
 <!--ID: 1780667197408-->
 
+
+Q: [1472. Design Browser History](https://leetcode.com/problems/design-browser-history/)
+A: method 1 using two stacks 
+history past use stack use 3 things first curr to track where are u currently past  and future stack.
+link- https://leetcode.com/problems/design-browser-history/submissions/2047987843/
+it can also be solved using linkedlist
+using vector
+<!--ID: 1782574649747-->
+
+
+
+
+
 [1963. Minimum Number of Swaps to Make the String Balanced](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/)
 src codestorywithmik need to understand again; https://www.youtube.com/watch?v=W61jIP-O8lw&t=585s
 

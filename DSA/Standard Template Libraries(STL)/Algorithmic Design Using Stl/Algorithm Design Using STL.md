@@ -232,3 +232,10 @@ solve it suing o1 time complexity
 using of product prefix array how will we handle 0 case 
 https://leetcode.com/problems/product-of-the-last-k-numbers/submissions/2046269323/
 <!--ID: 1782431956019-->
+
+
+Q: [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) think which stl should used then implement it first using vector then optimize it.
+A: https://leetcode.com/problems/insert-delete-getrandom-o1/submissions/2047955663/
+<!--ID: 1782572438598-->
+
+

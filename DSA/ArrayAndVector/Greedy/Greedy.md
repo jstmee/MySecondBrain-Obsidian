@@ -13,3 +13,9 @@ submission link- https://leetcode.com/problems/earliest-finish-time-for-land-and
 #Greedy
 <!--ID: 1780501707367-->
 
+Q: [1968. Array With Elements Not Equal to Average of Neighbors](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/)
+A: middle wale apne 1st ur end ke bich nhi hona chiye esliye bich ko hum jada bada karenge
+so sort them in increasing
+link- https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors/submissions/2047047141/
+<!--ID: 1782493133792-->
+
