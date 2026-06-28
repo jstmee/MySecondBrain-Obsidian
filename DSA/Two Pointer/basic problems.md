@@ -25,4 +25,11 @@ submission 1- https://leetcode.com/problems/squares-of-a-sorted-array/submission
 <!--ID: 1779233870336-->
 
 
+Q: [2161. Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)
+A: simple solution use of two pointer easy if not able to do see the solution 
+Submission - https://leetcode.com/problems/partition-array-according-to-given-pivot/submissions/2048160113/?envType=daily-question&envId=2026-06-27
+#TwoPointers #OptimizeTwoPointers 
+<!--ID: 1782584788578-->
+
+
 

@@ -96,3 +96,9 @@ submission of not unique - https://leetcode.com/problems/max-points-on-a-line/su
 <!--ID: 1781369999247-->
 
 
+Q: [1865. Finding Pairs With a Certain Sum](https://leetcode.com/problems/finding-pairs-with-a-certain-sum/) just an observation based question
+A: submission- https://leetcode.com/problems/finding-pairs-with-a-certain-sum/submissions/2048100848/
+<!--ID: 1782581456148-->
+
+
+

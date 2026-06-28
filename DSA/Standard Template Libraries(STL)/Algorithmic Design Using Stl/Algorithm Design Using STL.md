@@ -239,3 +239,9 @@ A: https://leetcode.com/problems/insert-delete-getrandom-o1/submissions/20479556
 <!--ID: 1782572438598-->
 
 
+Q: [1146. Snapshot Array](https://leetcode.com/problems/snapshot-array/) think which data structure should be use
+A: use of vector vector<> as only index will hence it make sense it store changes in the index. for any particular snapshot. 
+https://leetcode.com/problems/snapshot-array/submissions/2048066140/
+<!--ID: 1782579679634-->
+
+
